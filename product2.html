@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--DECLARATION OF THE DOCUMENT TYPE.-->
+<html lang="en">
+    <!--START THE  HTML DOCUMENT AND SPECIFIES THE ENGLISH LANGUAGE.-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage keyboard | E-Commerce</title>
+    <link rel="stylesheet" href="css/global.css">
+    <!--LINK TO THE GLOBAL.CSS FILE.-->
+    <link rel="stylesheet" href="css/product1.css">
+    <!--LINK TO THE PRODUCT1.CSS FILE.-->
+</head>
+<body>
+    <!--BODY DECLARATION.-->
+    <header>
+        <!--HEADER  DECLARATION.-->
+        <h1>Vintage keyboard</h1>
+        <!--HEADING.-->
+        <div class="cart-symbol">
+            <!--CART DECLARATION.-->
+            <img src="images/cart.png" alt="Cart" id="cartIcon">
+            <!--LINK TO THE CART IMAGE.-->
+            <span id="cartCount">0</span>
+            <!--DISPLAY THE NUMBER OF THE ITEM IN THE CART.-->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <!--LINK TO THE INDEX.HTML.-->
+                <li><a href="shop.html">Shop</a></li>
+                <!--LINK TO THE SHOP.HTML.-->
+                <li><a href="contact.html">Contact Us</a></li>
+                <!--LINK TO THE CONTACT.HTML.-->
+                <li><a href="about.html">About Us</a></li>
+                <!--LINK TO THE ABOUT.HTML.-->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="product-detail">
+            <img src="images/ibm-keyboard.jpeg" alt="KEYBOARD">
+            <!--LINK TO KEYBOARD IMAGE.-->
+            <div class="product-info">
+                <h2>IBM-MODEL F</h2>
+                <!--SUBHEADING.-->
+                <p class="price">$199.00</p>
+                <!--PRICE.-->
+                <ul>
+                    <!--DETAIL.-->
+                    <li><strong>Brand:</strong> IBM</li>
+                    <li><strong>Model:</strong> IBM model F (83-key keyboard) 4176203</li>
+                    <li><strong>Cable:</strong> cable attached, gray coiled cable, 15-pin connector</li>
+                    <li><strong>Date:</strong> 27 SEP 84 (35 years old)</li>
+                    <li><strong>Condition:</strong> untested, very clean condition</li>
+                </ul>
+                <label for="color">Choose a variation of color:</label>
+                <select id="color" name="color">
+                    <option value="color1">White</option>
+                    <option value="color2">Black</option>
+                </select>
+                <button onclick="addToCart('IBM-MODEL F', 199)">Add to Cart</button>
+                <!--BUTTON.-->
+                <button onclick="placeOrder()">Place Order</button>
+                <!--BUTTON.-->
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Connect with us on our social media:</p>
+        <div class="social-media">
+            <a href="https://facebook.com"><img src="images/Facebook..png" alt="Facebook"></a>
+            <!--FACEBOOK.-->
+            <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+            <!--TWITTER.-->
+            <a href="https://instagram.com"><img src="images/instagram.jpg" alt="Instagram"></a>
+            <!--INSTAGRAM.-->
+        </div>
+    </footer>
+    <script src="js/script1.js"></script>
+    <!--JAVA SCRIPT FILE.-->
+</body>
+</html>

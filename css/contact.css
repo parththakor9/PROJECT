@@ -1,0 +1,52 @@
+main 
+{
+    text-align: center;
+    /*TEXT-CENTER*/
+    padding: 20px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    margin: auto;
+    /*MARGIN*/
+}
+
+label 
+{
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea, button 
+{
+    width: 100%;
+    /*WIDTH*/
+    padding: 10px;
+    /*PADDING*/
+    margin-bottom: 20px;
+}
+
+button 
+{
+    background-color: #9a2626;
+    /*BUTTON BACKGROUND COLOR.*/
+    color: white;
+    border: none;
+    /*BORDER*/
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a31313;
+    /*BUTTON HOVER*/
+}
+
+#confirmationMessage 
+{
+    margin-top: 20px;
+    color: green;
+    /*TEXT COLOR.*/
+    font-weight: bold;
+}

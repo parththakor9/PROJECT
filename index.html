@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- DECLARE THE DOCUMENT TYPE.-->
+<html lang="en">
+    <!--START THE HTML DOCUMENT AND SPECIFIES ENGLISH AS THE LANGUAGE-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | E-Commerce</title>
+    <link rel="stylesheet" href="css/global.css">
+    <!--LINK TO THE CSS GLOBAL FILE.-->
+    <link rel="stylesheet" href="css/home.css">
+    <!--LINK TO THE HOME.CSS FILE.-->
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Vintage e-commerce website.</h1>
+        <!--HEADING.-->
+        <div class="cart-symbol">
+            <!--CONTAINER OF THE IMAGE SLIDER.-->
+            <img src="images/cart.png" alt="Cart" id="cartIcon">
+            <!--SYMBOL OF CART.-->
+            <span id="cartCount">0</span>
+            <!--DISPLAY THE NUMBER OF ITEM IN THE CART.-->
+        </div>
+        <div class="slider">
+            <!--CONTAINER FOR THE IMAGE SLIDER.-->
+            <img src="images/ibm-keyboard.jpeg" alt="IBM Keyboard" class="slide active">
+            <!--FIRST SLIDE.-->
+            <img src="images/ibm-pc xt keyboard.jpeg" alt="IBM PC XT Keyboard" class="slide">
+            <!--SECOND SLIDE.-->
+            <button class="prev"></button>
+            <!--BUTTON TO NAVIGATE TO THE PREVIOUS SLIDE.-->
+            <button class="next"></button>
+            <!--BUTTON TO NAVIGATE TO THE NEXT SLIDE.-->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <!--LINK TO THE HOME PAGE.-->
+                <li><a href="shop.html">Shop</a></li>
+                <!--LINK TO THE SHOP PAGE-->
+                <li><a href="contact.html">Contact Us</a></li>
+                <!--LINK TO THE CONTACT PAGE.-->
+                <li><a href="about.html">About Us</a></li>
+                <!--LINK TO THE ABOUT PAGE.-->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Our Products</h2>
+        <!--SUBHEADING OF THE PRODUCT SECTION.-->
+        <div class="products">
+            <!--CONTAINER OF THE PRODUCT LIST.-->
+            <div class="product">
+                <!--CONTAINER OF THE INDIVIDUAL PRODUCT.-->
+                <a href="product1.html"><img src="images/ibm-keyboard.jpeg" alt="Product 1"></a><!--LINK TO THEPRODUCT PAGE AND IMAGE.-->
+                <h3>IBM-MODEL F KEYBOARD</h3>
+                <!--PRODUCT NAME.-->
+                <p>$199.00</p>
+                <!--PRODUCT PRICE.-->
+                <button onclick="location.href='product1.html'">View Product</button>
+                <!--BUTTON TO VIEW PRODUCT-->
+            </div>
+            <div class="product">
+                <a href="product2.html"><img src="images/ibm-pc xt keyboard.jpeg" alt="Product 2"></a><!--LINK TO THE PRODUCT PAGE AND IMAGE.-->
+                
+                <h3>IBM-PC XT KEYBOARD</h3>
+                <!--PRODUCT TITLE.-->
+                <p>$299.00</p>
+                <!--PRODUCT PRICE.-->
+                <button onclick="location.href='product2.html'">View Product</button>
+                <!--BUTTON TO VIEW PRODUCT-->
+            </div>
+        </div>
+        <button onclick="location.href='shop.html'">Shop now</button>
+        <!--BUTTON TO NAVIGATE TO THE SHOP PAGE.-->
+    </main>
+    <footer>
+        <p>Connect with us on our social media:-</p>
+        <!--SOCIAL MEDIA CONTACT.-->
+        <div class="social-media">
+            <a href="https://facebook.com"><img src="images/Facebook..png" alt="Facebook"></a>
+            <!--LINK TO FACEBOOK PAGE.-->
+            <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+            <!--LINK TO THE TWITTER PAGE.-->
+            <a href="https://instagram.com"><img src="images/instagram.jpg" alt="Instagram"></a>
+            <!--LINK TO THE INSTAGRAM PAGE.-->
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <!--LINK TO THE JAVASCRIPT FILE.-->
+</body>
+</html>

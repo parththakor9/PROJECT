@@ -1,0 +1,13 @@
+main
+ {
+    max-width: 800px; 
+    /*WIDTH*/
+    margin: 0 auto;
+    /*MARGIN*/
+    text-align: center;
+    /*TEXT-ALOGN*/
+}
+
+h2 {
+    margin-top: 0;
+}

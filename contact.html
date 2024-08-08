@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--DECLARATION OF THE DOCUMENT TYPE.-->
+<html lang="en">
+    <!--ENGLISH LANGUAGE.-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | E-Commerce</title>
+    <link rel="stylesheet" href="css/global.css">
+    <!--LINK TO THE GLBAL.CSS FILE.-->
+    <link rel="stylesheet" href="css/contact.css">
+    <!--LINK TO THE CONTACT.CSS FILE.-->
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <div class="cart-symbol">
+            <img src="images/cart.png" alt="Cart" id="cartIcon"><!--IMAGE LINK.-->
+            <span id="cartCount">0</span><!--COUNT.-->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <!--LINK TO THE INDEX.HTML FILE.-->
+                <li><a href="shop.html">Shop</a></li>
+                <!--LINK TO THE SHOP.HTML FILE.-->
+                <li><a href="contact.html">Contact Us</a></li>
+                <!--LINK TO CONTACT.HTML FILE.-->
+                <li><a href="about.html">About Us</a></li>
+                <!--LINK TO THE ABOUT.HTML FILE.-->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>We love to hear from you!</h2>
+        <form id="contactForm">
+            <!--FORM.-->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="confirmationMessage" style="display:none;">Thank you for your message! We'll get back to you soon.</p>
+        <!--CONFORMATION MESSAGE.-->
+    </main>
+    <footer>
+        <!--FOOTER SECTION.-->
+        <p>Connect us on our social social-media:-</p>
+        <div class="social-media">
+            <!--SOCIAL MEDIA.-->
+            <a href="https://facebook.com"><img src="images/Facebook..png" alt="Facebook"></a>
+            <!--FACEBOOK.-->
+            <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+            <!--TWITTER.-->
+            <a href="https://instagram.com"><img src="images/instagram.jpg" alt="Instagram"></a>
+            <!--INSTAGRAM.-->
+        </div>
+    </footer>
+    <script src="js/scriptcontact.js"></script>
+    <!--JAVASCRIPT.-->
+</body>
+</html>
